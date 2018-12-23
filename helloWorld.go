@@ -27,6 +27,9 @@ var (
 
 	message10 = "isTrue is %t\n\n"
 	answer10  = true
+
+	message11 = "This is a byte %x\n\n"
+	answer11  = byte(65)
 )
 
 func main() {
@@ -53,5 +56,6 @@ func main() {
 	fmt.Printf(message8, answer8)
 	fmt.Printf(message9, answer9)
 	fmt.Printf(message10, answer10)
+	fmt.Printf(message11, answer11)
 
 }
